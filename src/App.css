@@ -2,7 +2,7 @@
 
 :root {
   --primary: #032541;
-  --secondary: #00a0cf;
+  --secondary: #00A0CF;
   --white: #fff;
 }
 
@@ -129,14 +129,14 @@ header .nav-links li:last-child {
   position: relative;
 }
 
-.add-content > img {
+.add-content>img {
   position: absolute;
   top: 0;
   left: 0;
   width: 1140px;
 }
 
-.add-content > .titles {
+.add-content>.titles {
   position: absolute;
   color: #fff;
   width: 80%;
@@ -327,6 +327,7 @@ header .nav-links li:last-child {
 .movie-card:hover .inner-card-controls {
   opacity: 1;
 }
+
 
 .ctrl-btn {
   color: #fefefe;
