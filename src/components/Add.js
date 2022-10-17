@@ -1,10 +1,7 @@
 import React from "react";
-import { GlobalContext } from "../context/GlobalState";
-import { useContext } from "react";
 import ResultCard from "./ResultCard";
 
 const Add = () => {
-  const { mhd } = useContext(GlobalContext);
   const [query, setQuery] = React.useState("");
   const [results, setResults] = React.useState([]);
   function onChange(e) {
@@ -33,7 +30,6 @@ const Add = () => {
             <h2>
               Milyonlarca film, TV şovu ve keşfedilecek kişi. Şimdi keşfedin.
             </h2>
-            <h1>{mhd}</h1>
           </div>
           <div className="input-wrapper">
             <input
